@@ -15,7 +15,7 @@
     <header>
         <!-- Navber -->
         <section class="container">
-            <nav class="navbar navbar-expand-lg bg-light">
+            <nav class="navbar navbar-expand-lg fixed-top bg-light">
                 <div class="container-fluid">
                         <a class="navbar-brand fw-bold" href="#"><span class="text-warning">Abacus</span> Convention Center</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -28,13 +28,13 @@
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item ms-5">
-                                <a class="nav-link" href="#">About Us</a>
+                                <a class="nav-link" href="#about-us">About Us</a>
                             </li>
                             <li class="nav-item ms-5">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#contact">Contact</a>
                             </li>
                             <li class="nav-item ms-5">
-                                <a class="nav-link" href="#">Our Packages</a>
+                                <a class="nav-link" href="#our-packages">Our Packages</a>
                             </li>
                             
                         </ul>
@@ -100,8 +100,21 @@
                 </button>
             </div>
         </section>
+        <!-- Toasts -->
+            <section class="container  me-5">
+                    <div class="toast show toast-container position-absolute top-100 end-0 translate-middle-y" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="d-flex">
+                            <div class="bg-primary p-1"></div>
+                            <img class="ps-1" src="icons/Vector.svg" alt="">
+                            <div class="toast-body">
+                                20% off on next booking
+                            </div>
+                            <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                    </div>
+            </section>
         <!-- Every moment is Precious -->
-        <section class="container my-5">
+        <section class="container my-5" id="about-us">
             <div class="d-md-flex d-lg-flex">
                 <div>
                    <img src="images/unsplash_NSVJAAXOYHs.png" alt="" class="img-fluid">
@@ -116,7 +129,7 @@
         </section>
         <!-- Our Package -->
         <section>
-          <div class="container text-center mb-5">
+          <div class="container text-center mb-5" id="our-packages">
             <h2 class="text-center fs-2 fw-bold mb-5 mt-5">Our package</h2>
             <div class="row">
                 <div class="col-sm-12 col-md-3">
@@ -194,6 +207,154 @@
             </div>
           </div>
         </section>
+        <!-- Happy Clients says -->
+        <section>
+            <div class="container mb-5">
+                <div class="row">
+                    <h2 class="fw-bold text-center">Happy Clients says</h2>
+                     <div class="col-sm-12 col-md-4 text-center g-5">
+                        <div class="card border-0 shadow-lg">
+                            <div class="card-body px-5">
+                                <p class="card-text">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                                    <img class="img-fluid" src="images/person 1.png" class="card-img-top" alt="image">
+                                    <h5>Regina Miles</h5>
+                                    <p>Banker</p>
+                            </div>
+                        </div>
+
+                     </div>
+                     <div class="col-sm-12 col-md-4 text-center g-5 ">
+                        <div class="card border-0 shadow-lg">
+                            <div class="card-body px-5">
+                                <p class="card-text">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                                    <img class="img-fluid" src="images/person 2.png" class="card-img-top" alt="image">
+                                    <h5>Jone Drake</h5>
+                                    <p>Banker</p>
+                            </div>
+                        </div>
+
+                     </div>
+                     <div class="col-sm-12 col-md-4 text-center g-5 ">
+                        <div class="card border-0 shadow-lg">
+                            <div class="card-body px-5">
+                                <p class="card-text">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                                    <img class="img-fluid" src="images/person 3.png" class="card-img-top" alt="image">
+                                    <h5>Cret Yater</h5>
+                                    <p>Banker</p>
+                            </div>
+                        </div>
+
+                     </div>
+                </div>
+            </div>
+        </section>
+        <!-- Frequently Asked Questions -->
+        <section class="container" id="contact">
+            <h2 class="fw-bold text-center">Frequently Asked Questions</h2>
+            <div class="d-md-flex d-lg-flex p-5">
+                <div class="w-100 pt-2">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                    What’s the difference between event design and event planning?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made
+                                    events. This means we incorporate both event design and event planning to create that perfect event
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    How early do we need to start planning an event
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made
+                                    events. This means we incorporate both event design and event planning to create that perfect event
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    What is your refund and cancellation policy?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made
+                                    events. This means we incorporate both event design and event planning to create that perfect event
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    How do you keep budgets on track?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made
+                                    events. This means we incorporate both event design and event planning to create that perfect event
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+ 
+                </div>
+                <div class="p-2 justify-content-center">
+                    <img src="images/people.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </section>
+        <!-- Website Footer -->
+        <footer class="bg-black p-5">
+            <div class="footer-title text-white text-center">
+                <a class="navbar-brand fw-bold fs-2"><span class="text-warning">Abacus</span> Convention Center</a>
+                <p>Office 41, Zawaya Buildin, Ghala Muscat,
+                    Sultanate of Oman</p>
+                <p>Privacy Ploicy | Terms of use</p>
+            </div>
+        
+            <div class="footer-icons d-flex justify-content-center fs-5">
+                <div class="linkdin footer-links">
+                    <a href="https://www.linkedin.com/in/ruhani77/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="footer-links px-4">
+                    <a href="https://www.facebook.com/ruhani.ruhani.560" target="_blank"><i
+                            class="fa-brands fa-facebook-square"></i></a>
+                </div>
+                <div class="github footer-links">
+                    <a href="https://github.com/RUHANI77" target="_blank"><i class="fa-brands fa-github-square"></i></a>
+                </div>
+            </div>
+            <p class="text-center pt-4">© 2020 bike. All rights reserved</p>
+        </footer>
+
     </header>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
